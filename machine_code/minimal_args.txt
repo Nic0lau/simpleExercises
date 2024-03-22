@@ -1,0 +1,37 @@
+; Program that returns length of second cli argument.
+
+7F 45 4c 46 ; ELF HEADER
+02 ; 64 bit
+01 ; Little endian
+01 
+03 ; Linux ABI
+00 ; For linux this is trash
+48 31
+C0 EB 6B
+00 00
+0002 ; Executable file
+003E ; x86-64
+00000001 
+0000000000010078 ; entry point
+0000000000000040
+0000000000000000
+00000000
+0040
+0038
+0001
+0000
+0000
+0000
+00000001
+00000001
+0000000000000078 ; Offset for code 
+0000000000010078 ; entry point
+0000000000000000
+0000000000000036 ; code size
+0000000000000036 ; code size
+0000000000000000
+48 8B 7C 24 10
+!strlen.txt
+48 89 C7
+B0 3C
+0F 05

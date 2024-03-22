@@ -1,0 +1,10 @@
+; Size: 24 bytes or 0x18
+; int rax strlen(char *rdi)
+48 31 C0
+48 31 C9
+48 FF C9
+F2 48 AE
+48 F7 D9
+48 FF C9
+48 FF C9
+48 89 C8

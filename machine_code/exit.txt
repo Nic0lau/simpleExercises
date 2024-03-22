@@ -1,0 +1,4 @@
+;Size: 4 bytes or 0x04
+;void exit(int rdi);
+B0 3C
+0F 05
