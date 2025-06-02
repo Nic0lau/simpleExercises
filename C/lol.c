@@ -12,7 +12,7 @@ inutil()
         util()
         {
             void (*nada[0])();
-                15[nada] = inutil;
+                1[nada] = inutil;
                 }
                 
                 int
